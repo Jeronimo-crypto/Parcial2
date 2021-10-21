@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Green2"
+    android:orientation="vertical"
+    tools:context=".activity.CrearCourseActivity">
+
+    <TextView
+        android:id="@+id/create_course"
+        android:layout_width="424dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:background="@color/purple_200"
+        android:fontFamily="serif"
+        android:textAlignment="center"
+        android:text="Create Course"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/name_of_course"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="55dp"
+        android:background="@color/purple_200"
+        android:fontFamily="serif"
+        android:padding="3dp"
+        android:text="Academic Space"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="italic" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_name_course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp">
+
+        <EditText
+            android:id="@+id/name_course"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:hint="Write the name of course" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/professor"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/purple_200"
+        android:fontFamily="serif"
+        android:padding="3dp"
+        android:text="Professor"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="italic" />
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/academic_space"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/purple_200"
+        android:fontFamily="serif"
+        android:padding="3dp"
+        android:text="Academic Space"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="italic" />
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/day_time"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/purple_200"
+        android:fontFamily="serif"
+        android:padding="3dp"
+        android:text="Day Time"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="italic" />
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/btn_formulario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Create Course"/>
+
+</LinearLayout>

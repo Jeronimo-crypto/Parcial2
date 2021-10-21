@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Green2"
+    android:orientation="vertical"
+    tools:context=".activity.AgregarHorarioCurso">
+
+    <TextView
+        android:id="@+id/create_student"
+        android:layout_width="424dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:background="@color/purple_200"
+        android:fontFamily="serif"
+        android:textAlignment="center"
+        android:text="Add Course Schedule"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/day_week"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/purple_200"
+        android:fontFamily="serif"
+        android:padding="3dp"
+        android:text="Day Of Week"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="italic" />
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/start_at"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/purple_200"
+        android:fontFamily="serif"
+        android:padding="3dp"
+        android:text="StartsAt"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="italic" />
+    <Spinner
+        android:layout_width="125dp"
+        android:layout_marginLeft="56dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/ends_at"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/purple_200"
+        android:fontFamily="serif"
+        android:padding="3dp"
+        android:text="EndsAt"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="italic" />
+    <Spinner
+        android:layout_width="125dp"
+        android:layout_marginLeft="56dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/btn_formulario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Create Student"/>
+
+</LinearLayout>
